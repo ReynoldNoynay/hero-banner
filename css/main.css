@@ -22,6 +22,16 @@ body {
   margin: 0;
 }
 
+h2 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 4rem;
+  color: white;
+  background-color: rgba(0, 0, 0, .5);
+  position: absolute;
+
+
+}
+
 .card-body {
   padding: .2rem 1rem;
 }
@@ -36,6 +46,8 @@ body {
 }
 
 .card-subtitle {
+  font-style: "Open Sans", Sans-serif;
+  font-size: 2rem;
   margin: 0;
   padding: .3rem 1rem;
   position: absolute;
