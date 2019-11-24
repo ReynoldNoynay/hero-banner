@@ -11,3 +11,14 @@ html {
   display: block;
   width: 100%;
 }
+
+body {
+  margin: 0;
+}
+/** Max Height Not working**/
+.banner {
+  max-height: 500px;
+  position: relative;
+  text-align: left;
+  display: inline-block;
+}
