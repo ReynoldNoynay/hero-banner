@@ -16,7 +16,7 @@ html {
 body {
   margin: 0;
 }
-/** Max Height Not working**/
+
 .banner {
   width: 100%;
   max-height: 500px;
@@ -26,26 +26,25 @@ body {
 }
 
 .banner-content {
-position:absolute;
-bottom: 0;
-left: 0;
-width: 100%;
-padding-left: 50px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding-left: 50px;
 }
 
 .banner-title {
-display: inline-block;
-position: relative;
-font-size: 4rem;
-color: #fff;
-transform: translate(0%, -120%);
-background-color: rgba(0, 0, 0, .5);
-position: absolute;
-max-width: 10em;
+  display: inline-block;
+  position: relative;
+  font-size: 4rem;
+  color: #fff;
+  transform: translate(0%, -120%);
+  background-color: rgba(0, 0, 0, .5);
+  max-width: 10em;
 }
 
 .banner-title h2 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   display: inline;
 }
 
