@@ -25,37 +25,21 @@ article {
 }
 
 .banner {
-  width: 100%;
-  max-height: 500px;
   position: absolute;
-  text-align: left;
-  display: inline-block;
-}
-
-.banner-content {
+  width: 100%;
+  max-width:785px;
+  padding: 0 1rem;
   bottom: 0;
-  left: 0;
-  width: 100%;
-  padding-left: 20px;
+  transform: translateX(-50);
 
 }
 
-.banner-title {
-  display: inline-block;
-  position: absolute;
-  font-size: 4rem;
-  color: #fff;
-  transform: translate(0%, -225%);
-  background-color: rgba(0, 0, 0, .5);
-  max-width: 10em;
-}
-
-.banner-title h2 {
+ h2 {
   margin-bottom: 1rem;
-  display: inline;
+  line-height: 1.4;
 }
 
-.banner-title h2 span {
+ h2 span {
   background-color: rgba(0, 0, 0, .5);
   font-size: 4rem;
   color: #fff;
