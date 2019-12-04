@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: "Open Sans", sans-serif;
+  font: normal 100%/ 1.5 "Open Sans", sans-serif;
   line-height: 1.4;
 }
 
@@ -9,53 +9,61 @@ html {
 }
 
 .img-flex {
-  display: block;
   width: 100%;
+  display: block;
 }
 
 body {
   margin: 0;
+  overflow: hidden;
+}
+
+article {
+  position: relative;
+  overflow: hidden;
+  max-height: 500px;
 }
 
 .banner {
   width: 100%;
   max-height: 500px;
-  position: relative;
+  position: absolute;
   text-align: left;
   display: inline-block;
 }
 
 .banner-content {
-  position: absolute;
   bottom: 0;
   left: 0;
   width: 100%;
-  padding-left: 50px;
+  padding-left: 20px;
+
 }
 
 .banner-title {
   display: inline-block;
-  position: relative;
+  position: absolute;
   font-size: 4rem;
   color: #fff;
-  transform: translate(0%, -120%);
+  transform: translate(0%, -225%);
   background-color: rgba(0, 0, 0, .5);
   max-width: 10em;
 }
 
 .banner-title h2 {
-  font-family: "Open Sans", sans-serif;
+  margin-bottom: 1rem;
   display: inline;
 }
 
 .banner-title h2 span {
-  display: inline;
   background-color: rgba(0, 0, 0, .5);
-  overflow: hidden;
+  font-size: 4rem;
+  color: #fff;
 }
 
 p {
   font-size: 2rem;
   font-style: italic;
-  max-width: 25em;
+  margin-top: 0;
+  margin-bottom: .75em;
 }
