@@ -1,7 +1,7 @@
 html {
   box-sizing: border-box;
   font: normal 100%/ 1.5 "Open Sans", sans-serif;
-  line-height: 1.4;
+  line-height: 1.5;
 }
 
 *, *::before, *::after {
@@ -27,19 +27,20 @@ article {
 .banner {
   position: absolute;
   width: 100%;
-  max-width:785px;
-  padding: 0 1rem;
+  max-width: 50em;
   bottom: 0;
-  transform: translateX(-50);
-
+  left: 50%;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  transform: translateX(-50%);
 }
 
- h2 {
+h2 {
   margin-bottom: 1rem;
   line-height: 1.4;
 }
 
- h2 span {
+h2 span {
   background-color: rgba(0, 0, 0, .5);
   font-size: 4rem;
   color: #fff;
